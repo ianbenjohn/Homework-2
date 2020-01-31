@@ -1,0 +1,37 @@
+body {
+    background-color: bisque;
+    min-height: 100vh;
+    position: relative;
+    margin: 0px;
+}
+.navbar-brand {
+    background-color: cadetblue;
+    position: fixed;
+    margin-left: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#ian {}
+
+.row.footer {
+    bottom: 0px;
+    position: absolute;
+    text-align:center;
+    padding: 5px;
+    padding-left: 50%;
+    padding-right: 50%;
+    background: #666666;
+    border-top: solid 5px teal;
+}
+#copyright {
+    color: cornsilk;
+}
+.my-container {
+    border: 1px solid green;
+}
+.my-row {
+    border: 3px solid red;
+}
+.my-col {
+    border: 3px dotted blue;
+}
