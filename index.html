@@ -11,24 +11,24 @@
     </head>
 <body>
 <!--Nav Bar-->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
 <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
         <p id="ian">Ian Johnson</p>
     </a>
-    <button class="navbar-toggler" data-toggle="collapse">
-        <span class="navbar-toggler"></span>
+    <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
     </button>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="index.html" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Portfolio</a>
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
                 </li>
              </ul>
         </div>
@@ -39,30 +39,35 @@
 <div class="container my-container">
     <!--First Row with 2 columns-->
     <div class="row my-row">
-        <div class="col-md-4 my-col">
-            Row 1 Col 1
-            <img src="#"/>
+        <div class="col-md-5 col-sm-12 my-col">
+             <img class="ianImg" src="img/Ian.jpg"/>
         </div>
-        <div class="col-md-8 my-col">
-            Row 1 Col 2
+        <div class="col-md-7 my-col">
+           <div class="jumbotron">
+            <h1>About Ian Johnson:</h1>      
+          </div>     
+        </div>
         </div>
     </div>
     <!--Second ROW with 1 column-->
     <div class="row my-row">
         <div class="col my-col">
-            Row 2 col 1
+            <h3>Early Life:</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint praesentium laudantium quis 
+                    aut veritatis a nemo, reiciendis repudiandae sit reprehenderit. Numquam commodi perferendis 
+                    repudiandae quam maxime unde adipisci fugiat laudantium? Eveniet sequi ex qui tenetur 
+                    architecto possimus eius, nulla excepturi.</p>
+            <h3>Current:</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, consequuntur omnis rem vitae vero
+                 architecto odio delectus porro nam! Fugit iusto nisi, ratione dicta deserunt, non ipsam doloremque 
+                 sapiente unde et laborum animi nam! Dicta quia odit ea minima amet! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Aliquam suscipit, illum esse ex quis accusantium, aut ducimus hic natus at aliquid porro 
+                  magnam cum dignissimos nostrum deleniti quod consequatur! Vero eius expedita eum animi consectetur libero
+                 non, ipsum doloremque cupiditate?</p>
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
+<hr>
 <!--Footer-->
 <footer class="row footer bg-dark">
     <div class="col-12">
@@ -70,6 +75,9 @@
     </div>
  </footer>
  
-
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>
